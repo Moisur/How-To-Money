@@ -5,6 +5,7 @@ function input(inputid){
     inputNumber.value ='';
     return inputNumbervalue;
 }
+
 //  calculate function
 function calculate(){
     const inputvalue =input("income");
@@ -41,11 +42,11 @@ function saveoffer(){
         const total = (totalincome * saveinput)/100;
         document.getElementById("Saving-Amount").innerText = total;
         const result = TotalBalancetype-total;
-        if(result > total){
+        if(TotalBalancetype > total){
             document.getElementById("Remaining").innerText = result;
         }
         else{
-            alert("sorry, Remaining Balance Must be big")
+            alert("sorry, total Balance Must be big")
         }  
     }
     else if(isNaN(saveinput)){
