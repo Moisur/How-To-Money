@@ -46,7 +46,7 @@ function saveoffer(){
             document.getElementById("Remaining").innerText = result;
         }
         else{
-            alert("sorry, total Balance Must be big")
+            alert("sorry, not Saving Amount")
         }  
     }
     else if(isNaN(saveinput)){
