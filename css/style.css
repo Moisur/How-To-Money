@@ -1,30 +1,29 @@
+/* images style  */
 .images-style{
     width: 100%;
     height: 550px;
 }
+/* input flex */
 .input-area{
     margin:10px 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.input-area1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* input text style  */
 .input-area p{
     width: 30%;
     padding-right: 10px;
     color: black;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
 }
+/* input style  */
 .input-button,
 .input-area input{
     width: 90%;
     outline: none;
     border: 1px solid slategray;
-    background-color: rgb(210, 212, 212);
+    background-color: #fff;
 }
 
