@@ -25,36 +25,36 @@
                        <h5>Income</h5>
                         <div class="input-area">
                             <p>Income:</p>
-                            <input type="text">
+                            <input type="text" id="income">
                         </div>
                         <h5>Expenses</h5>
                         <div class="input-area">
                             <p>Food:</p>
-                            <input type="text">
+                            <input id="food" type="text">
                         </div>
                         <div class="input-area">
                             <p>Red:</p>
-                            <input type="text">
+                            <input id="red" type="text">
                         </div>
                         <div class="input-area">
                             <p>Chother:</p>
-                            <input type="text">
+                            <input id="chother" type="text">
                         </div>
                         <div class="mt-2">
-                            <button type="button" class="btn btn-primary px-5 ">Primary</button>
-                            <h5 class="my-3"  >Total Expenses:<span></span></h5>
-                            <h5 class="my-3">Balance:<span></span></h5>
+                            <button type="button" onclick="calculate()" class="btn btn-primary px-5">Calculate</button>
+                            <h5 class="my-3">Total Expenses:<span id="total-expenses"> 00000</span></h5>
+                            <h5 class="my-3">Balance:<span id="total-Balance"> 00000</span></h5>
                         </div>
                         <div>
                             <div class="input-area1">
                                 <p class="mx-3">Save:</p>
-                                <input type="text" class="w-25 mx-3 input-button">
+                                <input type="text" id="save-input" class="w-25 mx-3 input-button">
                                 <p class="mx-3">%</p>
-                                <button type="button" class="btn btn-primary px-4 ">Save</button>
+                                <button type="button" class="btn btn-primary px-4" onclick="savedata()">Save</button>
                             </div>
                             <div>
-                                <h5 class="my-3">Saving Amount:<span></span></h5>
-                                <h5 class="my-3">Remaining Balance:<span></span></h5>
+                                <h5 class="my-3">Saving Amount:<span id="Saving-Amount"> 00000</span></h5>
+                                <h5 class="my-3">Remaining Balance:<span id="remainblanc"> 00000</span></h5>
                             </div>
                         </div>
                    </div>
